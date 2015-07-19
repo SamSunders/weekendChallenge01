@@ -1,0 +1,62 @@
+body {
+	background-image: url("confectionary.png");
+	width: 1350px;
+}
+form p {
+	float: left;
+	margin-right: 5px;
+}
+form input {
+	float: left;
+	margin-top: 15px;
+	margin-right: 5px;
+}
+
+#empInfo {
+	padding: 20px;
+	background-color: #ccc;
+	width: 100%;
+	float: left;
+	display: block;
+
+	
+}
+
+#empFinalInfo {
+	padding: 20px;
+	float: right;
+	width: 100%;
+	margin-left: 20px;
+}
+#empFinalInfo p {
+	margin-right: 20px;
+}
+
+.employee, .review1, .review2, .review3, .review4, .review5{
+	min-width: 100px;
+	padding: 10px;
+	margin-left: 20px;
+	margin-top: 10px;
+	display: block;
+
+}
+
+#empFinalInfo p{
+	display: inline;
+}
+
+.review1 {
+	background-color: red;
+}
+.review2 {
+	background-color: orange;
+}
+.review3 {
+	background-color: yellow;
+}
+.review4 {
+	background-color: blue;
+}
+.review5{
+	background-color: green;
+}
